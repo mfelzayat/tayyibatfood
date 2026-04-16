@@ -1,8 +1,2 @@
-# Netlify redirects & headers
-
-# SPA-like behavior for clean URLs
-/*    /index.html   200
-
-# Language redirect
-/ar/*  /index.html  200
-/en/*  /index.html  200
+# Netlify redirects - 404 fallback
+/*    /404.html   404
